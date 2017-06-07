@@ -1,7 +1,7 @@
-package 'tree' do
-	action :install
-end
+package 'tree' 
 
 file '/etc/motd' do
-	content "Property of ... \n"
+	content "Property of Daniel \n"
+	owner "root" 
+	group "root"
 end
